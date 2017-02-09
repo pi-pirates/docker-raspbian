@@ -7,7 +7,7 @@ If you want to build this image yourself, run the following to generate the comp
 ```
 $ rm *.tar.xz
 $ ./mkimage.sh
-$ ./build-docker-image.sh rasbian jessie
+$ ./build-docker-image.sh rasbian latest
 ```
 
 build docker images expect the authetication enviroment variables in your bashrc or whatever. 
